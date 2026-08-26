@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Douyin Picks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 毛玻璃工具栏 -->
+    <div class="toolbar">
+        <button id="zoomIn" title="放大">+</button>
+        <span id="zoomLevel">100%</span>
+        <button id="zoomOut" title="缩小">-</button>
+        <button id="resetBtn" title="重置视图">重置</button>
+    </div>
+
+    <!-- 加载提示 -->
+    <div id="loading">正在构建无限宇宙...</div>
+
+    <!-- 无限画布核心容器 -->
+    <div id="canvas-container">
+        <div id="canvas"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
